@@ -25,7 +25,7 @@ hi SpecialKey     guibg=#1F1F1F guifg=#E783E9 gui=none term=bold cterm=NONE cter
 hi VertSplit      guibg=#121212 guifg=#121212 gui=none term=reverse cterm=NONE ctermbg=233 ctermfg=233 "alt: guibg=#4d5074 guifg=#4d5074
 hi SignColumn     guibg=#1F1F1F guifg=#BF81FA gui=none term=NONE cterm=NONE ctermbg=NONE ctermfg=141
 hi NonText        guibg=#1F1F1F guifg=#FC6984 gui=none term=bold cterm=NONE ctermbg=NONE ctermfg=204
-hi Directory      guibg=#1F1F1F guifg=#FFEE68 gui=none term=bold cterm=bold ctermbg=NONE ctermfg=227
+hi Directory      guibg=#1F1F1F guifg=#FFEE68 gui=none term=NONE cterm=NONE ctermbg=NONE ctermfg=51
 hi Title          guibg=#1F1F1F guifg=#6DF584 gui=bold term=bold cterm=bold ctermbg=NONE ctermfg=84
 hi BadWhitespace  guibg=#0ADA7D guifg=fg      gui=NONE term=NONE cterm=NONE ctermbg=59 ctermfg=fg
 
@@ -33,12 +33,12 @@ hi BadWhitespace  guibg=#0ADA7D guifg=fg      gui=NONE term=NONE cterm=NONE cter
 hi Cursor         guibg=#FFEE68 guifg=#1F1F1F gui=none term=NONE cterm=reverse ctermbg=8 ctermfg=15
 hi CursorIM       guibg=#FFEE68 guifg=#1F1F1F gui=none term=NONE cterm=reverse ctermbg=195 ctermfg=16
 hi CursorColumn   guibg=#444444 guifg=fg      gui=none term=reverse cterm=reverse ctermbg=238 ctermfg=fg
-hi CursorLine     guibg=#444444 guifg=fg      gui=none term=underline cterm=underline ctermbg=238 ctermfg=fg
+" hi CursorLine     guibg=#444444 guifg=fg      gui=none term=underline cterm=underline ctermbg=238 ctermfg=fg
 
 
 " -> Folding
 hi FoldColumn     guibg=#001336 guifg=#003DAD gui=none term=NONE cterm=NONE ctermbg=17 ctermfg=25
-hi Folded         guibg=#585858 guifg=#c5dcdc gui=bold term=NONE cterm=bold ctermbg=240 ctermfg=188
+hi Folded         guibg=#585858 guifg=#c5dcdc gui=none term=NONE cterm=NONE ctermbg=240 ctermfg=188
 
 " -> Line info
 "hi LineNr         guibg=#121212 guifg=#1F1F1F gui=none term=underline cterm=NONE ctermbg=233 ctermfg=236
@@ -84,22 +84,22 @@ hi VisualNOS      guibg=#000000 guifg=#696567 gui=none term=bold,underline cterm
 " -> Code
 hi Comment        guibg=#1F1F1F guifg=#696567 gui=italic term=italic cterm=italic ctermbg=NONE ctermfg=59 "alt: guifg=#5f5f5f
 hi Constant       guibg=#1F1F1F guifg=#6DF584 gui=none term=underline cterm=NONE ctermbg=NONE ctermfg=83
-hi String         guibg=#1F1F1F guifg=#FFB539 gui=none term=NONE cterm=NONE ctermbg=NONE ctermfg=48
+hi String         guibg=#1F1F1F guifg=#FFB539 gui=none term=NONE cterm=NONE ctermbg=NONE ctermfg=119
 hi Error          guibg=#1F1F1F guifg=#FC4234 gui=none term=reverse cterm=NONE ctermbg=NONE ctermfg=203 "alt: guifg=#0fc416
 hi Identifier     guibg=#1F1F1F guifg=#70BDF1 gui=none term=underline cterm=NONE ctermbg=NONE ctermfg=75
-hi Function       guibg=#1F1F1F guifg=#90CBF1 gui=none term=NONE cterm=NONE ctermbg=NONE ctermfg=117
+hi Function       guibg=#1F1F1F guifg=#90CBF1 gui=none term=NONE cterm=NONE ctermbg=NONE ctermfg=141
 hi Ignore         guibg=#1F1F1F guifg=#1F1F1F gui=none term=NONE cterm=NONE ctermbg=NONE ctermfg=16
 hi MatchParen     guibg=#226600 guifg=#FFA500 gui=none term=reverse cterm=bold ctermbg=129 ctermfg=16
 hi PreProc        guibg=#1F1F1F guifg=#BF81FA gui=none term=underline cterm=NONE ctermbg=NONE ctermfg=141
 
-hi Special        guibg=#1F1F1F guifg=#FFEE68 gui=none term=bold cterm=bold ctermbg=NONE ctermfg=227
+hi Special        guibg=#1F1F1F guifg=#FFEE68 gui=none term=bold cterm=bold ctermbg=NONE ctermfg=99
 hi Todo           guibg=#1F1F1F guifg=#FC4234 gui=bold term=bold cterm=bold ctermbg=NONE ctermfg=190 "alt guibg=#0f0f0f guifg=#0fc416
 hi Underlined     guibg=#1F1F1F guifg=#FC4234 gui=underline term=underline cterm=underline ctermbg=NONE ctermfg=203
 hi Statement      guibg=#1F1F1F guifg=#E783E9 gui=none term=bold cterm=bold ctermbg=NONE ctermfg=176
 
 hi Operator       guibg=#1F1F1F guifg=#FC6984 gui=none term=NONE cterm=NONE ctermbg=NONE ctermfg=204
 hi Delimiter      guibg=#1F1F1F guifg=#FC6984 gui=none term=NONE cterm=NONE ctermbg=NONE ctermfg=204
-hi Type           guibg=#1F1F1F guifg=#FFEE68 gui=none term=underline cterm=NONE ctermbg=NONE ctermfg=46
+hi Type           guibg=#1F1F1F guifg=#FFEE68 gui=none term=underline cterm=NONE ctermbg=NONE ctermfg=190
 hi Exception      guibg=#1F1F1F guifg=#FC4234 gui=none term=NONE cterm=NONE ctermbg=NONE ctermfg=203 " alt: guifg=#0fc416
 
 
